@@ -25,7 +25,7 @@ convolutional_block_output2 = [[[[0.       , 2.7823157, 0.       , 0.       , 1.
    [2.5460882,  0.,         1.1291425,  0.,         0.,         0.,        ]]]]
 
 
-ResNet50_summary =[['InputLayer', [(None, 64, 64, 3)], 0],
+ResNet50_summary =[['InputLayer', (None, 64, 64, 3), 0],
 ['ZeroPadding2D', (None, 70, 70, 3), 0, ((3, 3), (3, 3))],
 ['Conv2D', (None, 32, 32, 64), 9472, 'valid', 'linear', 'GlorotUniform'],
 ['BatchNormalization', (None, 32, 32, 64), 256],
